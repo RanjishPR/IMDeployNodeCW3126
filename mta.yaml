@@ -103,12 +103,12 @@ modules:
             - Name: incident-management-html5-repository
               ServiceInstanceName: incident-management-html5-repo-host
               ServiceKeyName: incident-management-html5-repo-host-key
-              sap.cloud.service: incidentmanagement.service
+              sap.cloud.service: incidentmanagement.servicecw31
             - Name: incident-management-auth
               Authentication: OAuth2UserTokenExchange
               ServiceInstanceName: incident-management-auth
               ServiceKeyName: incident-management-auth-key
-              sap.cloud.service: incidentmanagement.service
+              sap.cloud.service: incidentmanagement.servicecw31
 
 resources:
   - name: incident-management-auth
